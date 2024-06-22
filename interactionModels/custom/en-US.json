@@ -1,0 +1,48 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "CuriosityIntent",
+          "samples": [
+            "Teach me a curiosity about roses",
+            "tell me something about the roses",
+            "I want to know something interesting about roses",
+            "give me a curiosity about the roses",
+            "Tell me something interesting about roses"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosities of roses"
+    }
+  }
+}
